@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1 class="my-5">Sum of 2 Numbers = <%= Integer.parseInt(input1) + Integer.parseInt(input2) %></h1>
+			<h1 class="my-5">Sum of 2 Numbers = <%= input1 + input2 %></h1>
 		</div>
 	</body>
 </html>
