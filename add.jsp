@@ -1,6 +1,6 @@
 <%
-	String input1 = request.getParameter("input1");
-	String input2 = request.getParameter("input2");
+	int input1 = request.getParameter("input1");
+	int input2 = request.getParameter("input2");
 %>
 <html>
 	<head>
