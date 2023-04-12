@@ -29,8 +29,8 @@ public class BankingApplication {
 // ------------------------------------------------------
 
 		/**
-		 * Pays interest to all accounts Accounts earn 5% interest unless they have type
-		 * 'Savings', then they earn 10%
+		 * Pays interest to all accounts. Accounts earn 5% interest unless they have
+		 * type 'Savings', then they earn 10%
 		 *
 		 * @return total Amount of interest paid across all accounts
 		 */
@@ -50,8 +50,8 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Transfer money between two accounts If a transfer request is invalid for any
-		 * reason, it should do nothing
+		 * Transfer money between two accounts. If a transfer request is invalid for any
+		 * reason, it should do nothing.
 		 *
 		 * @param sourceAccount    Account to transfer money from
 		 * @param destAccount      Account to transfer money to
@@ -66,9 +66,9 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Transfers money between two users If a transfer request is invalid for any
-		 * reason, it should do nothing Money can be pulled from any of the source
-		 * user's accounts and will deposited in one of the dest user's accounts
+		 * Transfers money between two users. If a transfer request is invalid for any
+		 * reason, it should do nothing. Money can be pulled from any of the source
+		 * user's accounts and will deposited in one of the dest user's accounts.
 		 *
 		 * @param sourceUserId     UserId to transfer money from
 		 * @param destUserId       UserId to transfer money to
@@ -108,7 +108,7 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Generates an id for a new account and inserts into customerAccounts
+		 * Generates an id for a new account and inserts into customerAccounts.
 		 *
 		 * @param account account to add to the bank
 		 * @return id of newly generated account
@@ -135,7 +135,7 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Deletes account by Id
+		 * Deletes account by Id.
 		 *
 		 * @param accountId
 		 */
@@ -144,7 +144,7 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Gets account by Id
+		 * Gets account by Id.
 		 *
 		 * @param accountId
 		 */
@@ -153,7 +153,7 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Gets total balance from all accounts belonging to a user
+		 * Gets total balance from all accounts belonging to a user.
 		 *
 		 * @param userId
 		 */
@@ -167,7 +167,7 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Gets total balance of all customer accounts
+		 * Gets total balance of all customer accounts.
 		 *
 		 * @returns {number}
 		 */
@@ -191,8 +191,8 @@ public class BankingApplication {
 	}
 
 	/**
-	 * Represents a bank account with user, type, and balance An account cannot have
-	 * a negative balance
+	 * Represents a bank account with user, type, and balance. An account cannot
+	 * have a negative balance.
 	 */
 	public static class Account {
 		public String userId;
@@ -210,7 +210,7 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Sets balance of an account Accounts cannot have a negative balance
+		 * Sets balance of an account. Accounts cannot have a negative balance.
 		 *
 		 * @param {account} account
 		 * @param {number}  balance
@@ -222,7 +222,7 @@ public class BankingApplication {
 		}
 
 		/**
-		 * Gets balance of an account
+		 * Gets balance of an account.
 		 *
 		 * @param {account} account
 		 * @param {number}  balance
@@ -233,7 +233,7 @@ public class BankingApplication {
 	}
 
 	/**
-	 * Class for testing Bank functionality
+	 * Class for testing Bank functionality.
 	 */
 	public static class BankTester {
 		private Map<Integer, Account> accounts;
@@ -276,7 +276,7 @@ public class BankingApplication {
 			}
 		}
 
-		// After making transfers between users, the total balance held by each // user
+		// After making transfers between users, the total balance held by each user
 		// should have changed appropriately
 		public void testUserTransfers() {
 			Bank b = new Bank(this.accounts);
