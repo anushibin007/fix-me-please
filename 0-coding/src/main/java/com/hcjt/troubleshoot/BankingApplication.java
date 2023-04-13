@@ -265,6 +265,7 @@ public class BankingApplication {
 			double totalCustomerAccountsBalanceBeforeTransfers = b.getTotalBankBalance();
 			Account acct1 = b.getAccount(1);
 			Account acct2 = b.getAccount(2);
+			b.transfer(null, null, 1000);
 			b.transfer(acct1, acct2, 50);
 			b.transfer(acct2, acct1, 200);
 			b.transfer(acct1, acct2, 120);
