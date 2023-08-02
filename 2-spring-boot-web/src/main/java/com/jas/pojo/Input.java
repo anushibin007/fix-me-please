@@ -1,5 +1,11 @@
 package com.jas.pojo;
 
+/**
+ * A POJO that holds the input state
+ * 
+ * @author anushibin007
+ *
+ */
 public class Input {
 	private int a;
 	private int b;

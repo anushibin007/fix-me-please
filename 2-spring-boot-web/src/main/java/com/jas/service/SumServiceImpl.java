@@ -6,6 +6,9 @@ import com.jas.pojo.Input;
 
 public class SumServiceImpl implements SumService {
 
+	/**
+	 * A cache that stores frequently performed operation results
+	 */
 	Map<Input, Integer> cache = null;
 
 	@Override
