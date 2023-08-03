@@ -1,6 +1,6 @@
 package com.jas.controller;
 
-import com.jas.service.SumService;
+import com.generic.service.SumService;
 
 public class SumOfTwoController {
 
