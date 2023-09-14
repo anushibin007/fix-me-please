@@ -32,11 +32,7 @@ public class LicenseApplication {
 
 			int n = licenseBits.length;
 
-			if (n == 1 || n == 2) {
-				return true;
-			}
-
-			for (int i = 2; i < n; i++) {
+			for (int i = 2; i <= n; i++) {
 				if ((a[i] + a[i - 2]) != a[i]) {
 					return false;
 				}
@@ -49,10 +45,34 @@ public class LicenseApplication {
 
 	public static class LicenseTester {
 
-		public void testValidLicenseValidation() {
-			License validator = new License("1245-1545-2790-4335-7125");
-			boolean validateLicense = validator.validateLicense();
-			if (validateLicense) {
+		public void runAllTests() {
+			testInvalidLicenseValidationShortLicense();
+			testInvalidLicenseValidationWrongLicense();
+			testValidLicenseValidation();
+		}
+
+		private void testInvalidLicenseValidationShortLicense() {
+			invokeTest("1245-1545", false);
+		}
+
+		private void testInvalidLicenseValidationWrongLicense() {
+			invokeTest("1245-1545-2790-4225-7115", false);
+		}
+
+		private void testValidLicenseValidation() {
+			invokeTest("1245-1545-2790-4335-7125", true);
+		}
+
+		private void invokeTest(String licenseString, boolean expectedResult) {
+			License validator = new License(licenseString);
+			boolean actualResult = false;
+			try {
+				actualResult = validator.validateLicense();
+			} catch (Exception e) {
+				System.out.println("License Validation Error!");
+				return;
+			}
+			if (actualResult == expectedResult) {
 				System.out.println("License Validation Passed!");
 			} else {
 				System.out.println("License Validation Failed!");
@@ -62,6 +82,6 @@ public class LicenseApplication {
 
 	public static void main(String[] args) {
 		LicenseTester tester = new LicenseTester();
-		tester.testValidLicenseValidation();
+		tester.runAllTests();
 	}
 }
