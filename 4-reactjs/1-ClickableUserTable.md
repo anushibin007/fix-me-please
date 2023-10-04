@@ -34,6 +34,14 @@ Age: 50
 
 ### Task 3
 
+In this task, we just make sure that the new Modal is a separate component and is not inside the same component as the table.
+
+#### Expected output:
+
+The table and the modal should be in separate JS/JSX fies.
+
+### Task 4
+
 In this task, instead of fetching the data from the REST endpoint for the single user, pass all the data forward from the table to the new modal. That is, no extra GET requests should be made when the modal is opened.
 
 #### Expected output:
