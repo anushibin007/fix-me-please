@@ -52,7 +52,7 @@ No new requests in the Developer Console's Network tab when the new modal opens.
 
 ### List all users
 
-GET [view-source:https://dummyjson.com/users?limit=4](view-source:https://dummyjson.com/users?limit=4)
+GET [https://dummyjson.com/users?limit=4](https://dummyjson.com/users?limit=4)
 
 #### Sample response
 
