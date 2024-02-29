@@ -36,7 +36,7 @@ public class BankingApplication {
 		 */
 		public double generateInterest() {
 			double totalInterestPaid = 0;
-			double interestRate = 0.05;
+			double interestRate = 0.5;
 			for (Account account : this.customerAccounts.values()) {
 				if (account.type.equals("Savings")) {
 					interestRate = 0.10;
