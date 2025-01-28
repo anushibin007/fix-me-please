@@ -1,0 +1,189 @@
+{
+	"places": [
+		{
+			"name": "China",
+			"value": {
+				"str": "The overall population is the 141 crores",
+				"obj": {},
+				"arr": []
+			}
+		},
+		{
+			"name": "USA",
+			"value": {
+				"str": "",
+				"obj": {
+					"NY": {
+						"name": "NY",
+						"value": {
+							"str": "",
+							"obj": {},
+							"arr": [
+								{
+									"name": "Manhattan",
+									"value": {
+										"str": "The population of Manhattan is 1.6 lakhs",
+										"obj": {},
+										"arr": []
+									}
+								},
+								{
+									"name": "Brooklyn",
+									"value": {
+										"str": "The population of Brooklyn is 2.6 lakhs",
+										"obj": {},
+										"arr": []
+									}
+								}
+							]
+						}
+					},
+					"CA": {
+						"name": "CA",
+						"value": {
+							"str": "",
+							"obj": {
+								"SF": {
+									"name": "SF",
+									"value": {
+										"str": "",
+										"obj": {
+											"Bay": {
+												"name": "Bay",
+												"value": {
+													"str": "The population of Bay Area is 3.8 lakhs",
+													"obj": {},
+													"arr": []
+												}
+											}
+										},
+										"arr": []
+									}
+								},
+								"LA": {
+									"name": "LA",
+									"value": {
+										"str": "The population of Los Angeles is 38 lakhs",
+										"obj": {},
+										"arr": []
+									}
+								}
+							},
+							"arr": []
+						}
+					},
+					"TX": {
+						"name": "TX",
+						"value": {
+							"str": "The population of Texas is 28 lakhs",
+							"obj": {},
+							"arr": []
+						}
+					}
+				},
+				"arr": []
+			}
+		},
+		{
+			"name": "India",
+			"value": {
+				"str": "",
+				"obj": {},
+				"arr": [
+					{
+						"name": "Delhi",
+						"value": {
+							"str": "The population of Delhi is 1.6 crores",
+							"obj": {},
+							"arr": []
+						}
+					},
+					{
+						"name": "Rajasthan",
+						"value": {
+							"str": "",
+							"obj": {},
+							"arr": [
+								{
+									"name": "Jodhpur",
+									"value": {
+										"str": "The population of Jaipur is 3.6 lakhs",
+										"obj": {},
+										"arr": []
+									}
+								},
+								{
+									"name": "Jaipur",
+									"value": {
+										"str": "",
+										"obj": {},
+										"arr": [
+											{
+												"name": "HawaMahal",
+												"value": {
+													"str": "The population of HawaMahal is 1.2 lakhs",
+													"obj": {},
+													"arr": []
+												}
+											},
+											{
+												"name": "Fort",
+												"value": {
+													"str": "The population of Fort is 0.2 lakhs",
+													"obj": {},
+													"arr": []
+												}
+											}
+										]
+									}
+								},
+								{
+									"name": "Thar Desert",
+									"value": {
+										"str": "",
+										"obj": {
+											"JS": {
+												"name": "Jaisalmer",
+												"value": {
+													"str": "The population of Jaisalmer is 0.1 lakhs",
+													"obj": {},
+													"arr": []
+												}
+											}
+										},
+										"arr": []
+									}
+								}
+							]
+						}
+					},
+					{
+						"name": "Telangana",
+						"value": {
+							"str": "",
+							"obj": {
+								"Hyderabad": {
+									"name": "Hyderabad",
+									"value": {
+										"str": "The population of Hyderabad is 1.6 lakhs",
+										"obj": {},
+										"arr": []
+									}
+								}
+							},
+							"arr": []
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Canada",
+			"value": {
+				"str": "The population of Canada is 4 crores",
+				"obj": {},
+				"arr": []
+			}
+		}
+	]
+}
