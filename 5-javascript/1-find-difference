@@ -2,7 +2,7 @@
 
 ## Question
 
-The task is to write a function `findDifference` such that:
+The task is to write a function `findDifference` such that it takes in two arrays and returns the distinct numbers in each array.
 
 ```javascript
 console.log(findDifference([1, 2, 3], [2, 4, 6]));
